@@ -1,14 +1,19 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <index/>
   </div>
 </template>
 
 <script>
+import Index from './form/index';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components:{
+    Index
   }
 }
 </script>
