@@ -22,6 +22,9 @@ import B from './B.vue';
 export default {
   name:"A",
   // inheritAttrs: true,
+  provide:{
+    messige:'a组建的数据-provide'
+  },
   data(){
     return{
       Aname:'这里是爷爷组建A',
