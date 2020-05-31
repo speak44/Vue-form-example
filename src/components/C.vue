@@ -18,7 +18,8 @@ export default {
   name:'C',
   data(){
     return{
-      cdome:'c组建数据信息'
+      cdome:'c组建数据信息',
+      ww:'C'
     }
   },
   mounted(){

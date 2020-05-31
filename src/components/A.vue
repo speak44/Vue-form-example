@@ -34,6 +34,9 @@ export default {
   },
   mounted(){
     // console.log(this.$children[0], 'this.$children')
+    this.$children.map((item)=>{
+      console.log(item.ww, 'this.$children')
+    })
   },
   methods:{
     add:function(){

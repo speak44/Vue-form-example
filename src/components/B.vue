@@ -23,7 +23,8 @@ export default {
   },
   data(){
     return{
-      bcom:'B组建data 中内容'
+      bcom:'B组建data 中内容',
+      ww:'B'
     }
   },
   mounted(){

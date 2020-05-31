@@ -10,6 +10,11 @@ export default {
   name:'D',
   mounted(){
     console.log(this.$attrs, 'this.$attrs')
+  },
+  data(){
+    return {
+      ww:'D'
+    }
   }
 }
 </script>
