@@ -1,6 +1,5 @@
-# form-example
-# vue 组建开发 表单 使用async-validator进行验证，模拟element-ui；
-# vue 弹窗类组建开发，弹窗组建单独封装为插件。
+# Vue2.4中$attrs和$listeners的使用-学习笔记
+
 ## Project setup
 ```
 yarn install
