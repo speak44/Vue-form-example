@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <HelloWorld msg="组建开发实践-表单/弹窗类组建"/>
+    <HelloWorld msg="组建通讯"/>
   </div>
 </template>
 

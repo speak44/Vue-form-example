@@ -1,14 +1,19 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <A></A>
   </div>
 </template>
 
 <script>
+import A from './A.vue';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components:{
+    A
   }
 }
 </script>
