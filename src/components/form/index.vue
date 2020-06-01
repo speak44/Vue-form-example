@@ -55,8 +55,10 @@ export default {
       // console.log('434')
       this.$refs.form.validate(isVaild => {
         if(isVaild){
+          this.$message.success('成功消息')
           console.log('登陆成功')
         }else{
+          this.$message.error('错误消息') 
           console.log('登陆失败')
         }
       })

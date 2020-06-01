@@ -3,6 +3,7 @@
     <div class="message" :class="type" v-show="show">
       <i class="icon"></i>
       <span class="text">{{text}}</span>
+      <span>老胡叫你去搬砖</span>
     </div>
 </transition>
 </template>
@@ -30,7 +31,8 @@
 </script>
 
 <style scoped lang="stylus">
-  @import "~@/common/style/global.styl"
+  $success-color=#67C23A
+  $danger-color=#ed4014
   .fade-enter-active,
   .fade-leave-active 
      transition: opacity .3s
