@@ -7,8 +7,7 @@ const MESSAGE = {
     if (typeof window !== 'undefined' && window.Vue) {
       Vue = window.Vue
     }
-    Vue.component('Message', Message)
-
+    Vue.component('Message', Message) // 
     function msg(type, text, callBack) {
       let msg
       let duration = MESSAGE.duration
