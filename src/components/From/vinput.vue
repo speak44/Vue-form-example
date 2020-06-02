@@ -1,26 +1,24 @@
 <template>
   <div>
-    <input :type="type" :value="value" @input="onInput">
+    <input :type="type" :value="value" @input="Oninput">
   </div>
 </template>
-
 <script>
 export default {
-  name:'KInput',
+  name:'vinput',
   props:{
-    value:{
-      type:String,
-      default:''
-    },
     type:{
       type:String,
       default:'text'
+    },
+    value:{
+      type:String,
+      default:''
     }
   },
   methods:{
-    onInput:function (e) {
-      this.$emit('input', e.target.value)
-
+    Oninput:function (e) { 
+      this.$emit('input',e.target.value)
       this.$parent.$emit('validator')
      }
   }

@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <index/>
+    <Index></Index>
   </div>
 </template>
 
 <script>
-import Index from './form/index';
+import Index from './From/index';
 export default {
   name: 'HelloWorld',
   props: {
